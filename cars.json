@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Toyota Land Cruiser",
+        "description": "The Toyota Land Cruiser is a rugged yet luxurious SUV known for its legendary reliability, powerful performance, and unmatched off-road capability.",
+        "imageUrl": "https://images.pexels.com/photos/4781948/pexels-photo-4781948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "tags": ["Rugged SUV", "Luxury SUV", "Toyota", "Off-Road Vehicle"]
+    },
+    {
+        "title": "Porsche 718 Cayman",
+        "description": "The Porsche 718 Cayman is a sleek and agile sports car that offers exhilarating performance, precise handling, and a timeless design.",
+        "imageUrl": "https://images.unsplash.com/photo-1718063360400-8e0eeb8e33ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
+        "tags": ["Sports Car", "Luxury Coupe", "Porsche", "High-Performance"]
+    },
+    {
+        "title": "Audi R8",
+        "description": "The Audi R8 is a high-performance supercar with a bold design, a roaring V10 engine, and exceptional driving dynamics.",
+        "imageUrl": "https://images.unsplash.com/photo-1704144267235-15ffac6e7753?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "tags": ["Supercar", "High-Performance", "Luxury Sports Car", "Audi"]
+    },
+    {
+        "title": "Chevrolet Corvette Z06",
+        "description": "The Chevrolet Corvette Z06 is an iconic American sports car, delivering track-ready performance, stunning design, and advanced engineering.",
+        "imageUrl": "https://images.unsplash.com/photo-1632686232158-e2ffc0fae81f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8",
+        "tags": ["American Sports Car", "Track-Ready", "Chevrolet", "High-Performance"]
+    },
+    {
+    "title": "Mahindra Thar",
+    "description": "The Mahindra Thar is a rugged off-road SUV known for its bold design, powerful performance, and adventure-ready capabilities.",
+    "imageUrl": "https://images.unsplash.com/photo-1723306975792-f5a053a59dd3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "tags": ["Off-Road SUV", "Adventure Vehicle", "Mahindra", "Rugged Design"]
+}
+]
