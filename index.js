@@ -4,7 +4,7 @@ const app = express();
 
 const {initializeDatabase}= require("./db/db.connect")
 const NewCars = require("./models/newCars.models")
-const User = require("./models/user.model");
+const User = require("./models/users.models");
 
 app.use(express.json())
 
