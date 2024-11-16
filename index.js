@@ -87,6 +87,28 @@ app.get("/cars/:title", async(req, res)=>{
     }
 })
 
+async function readCarById(carId) {
+    try {
+        const car = await NewCars.findById(carId);
+        return car;
+    } catch (error) {
+        throw error;
+    }
+}
+
+app.get("/cars/id/:id", async (req, res) => {
+    try {
+        const car = await readCarById(req.params.id);
+        if (car) {
+            res.json(car);
+        } else {
+            res.status(404).json({ error: "Car Not Found" });
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Failed to fetch car" });
+    }
+});
+
 
 async function readAllCars(){
     try{
