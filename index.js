@@ -73,7 +73,7 @@ async function readCarByTitle(cartitle){
     }
 }
 
-app.get("/cars/:title", async(req, res)=>{
+app.get("/cars//title/:title", async(req, res)=>{
     try{
         const car = await readCarByTitle(req.params.title)
         if(car){
@@ -96,7 +96,7 @@ async function readCarById(carId) {
     }
 }
 
-app.get("/cars/id/:id", async (req, res) => {
+app.get("/cars/:id", async (req, res) => {
     try {
         const car = await readCarById(req.params.id);
         if (car) {
