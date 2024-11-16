@@ -116,11 +116,24 @@ app.get("/cars", async(req, res)=>{
 async function updateCar(carId, dataToUpdate){
  try{
     const updatedCar = await NewCars.findByIdAndUpdate(carId, dataToUpdate,{new:true})
-    console.log("Updated car:", updatedCar)
+   return updatedCar
  }catch(error){
     console.log("error in updating title", error)
  }
 }
+
+app.post("/cars/:carId", async(req,res)=>{
+    try{
+       const updatedCar = await updateCar(req.params.carId, req.body)
+       if(updatedCar){
+        res.status(200).json({message: "car updated successfully", updatedCar: updatedCar})
+       }else{
+        res.status(404).json({error: "Car not found"})
+       }
+    }catch(error){
+        res.status(500).json({error: "error in updating cars"})
+    }
+})
 
 //updateCar("673854f9590068e584cad2e5", {title:"Toyota Land Cruiser 250"})
 
