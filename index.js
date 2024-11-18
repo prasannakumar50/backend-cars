@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require("cors") 
 const app = express();
 
 
@@ -7,6 +8,10 @@ const NewCars = require("./models/newCars.models")
 const User = require("./models/users.models");
 
 app.use(express.json())
+
+app.use(cors({
+    origin: 'https://g7md79.csb.app',  
+}));
 
 initializeDatabase()
 
